@@ -1,16 +1,24 @@
-# budget_tracker
+# Boat budget tracker
 
-A new Flutter project.
+This is a full stack project uses AWS Amplify integrated with Flutter and Dart.
+It is a full featured CRUD application using the Amplify API and Authentication
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Key Tech Used
+* Amplfiy command line interface (CLI)
+* AWS authentication (email)
+* Integration and setup of AWS IAM for User Creation
+* IAM Permission Policies
+* IAM Security Credentials
+* IAM Access Keys
+* Configuration of Amplify
+* From pub.dev setup the following in pubspec.yaml
+* amplify_api:
+* amplify_auth_cognito:
+* amplify_authenticator: 
+* amplify_flutter:
+* go_router: 
+* Setup GraphQL schema and create model
+* Integrate Amplify API with the Flutter/Dart app
+* GoRouter for multiple screen navigation
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
